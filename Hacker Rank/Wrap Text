@@ -1,0 +1,35 @@
+#Practice>Python>Strings>Text Wrap
+#without function
+def wrap(string, max_width):
+    b = ''
+    for i in range(0,len(string)):
+        if(i %max_width==0 and i != 0):
+            b+='\n'
+        b+=string[i]
+        
+    return b
+if __name__ == '__main__':
+    string, max_width = input(), int(input())
+    result = wrap(string, max_width)
+    print(result)
+    
+ #with the help of textwrap module
+#wrap method 
+import textwrap
+def wrap(string, max_width):
+    string = textwrap.wrap(string,max_width)
+    string = '\n'.join(string)
+    return string
+if __name__ == '__main__':
+    string, max_width = input(), int(input())
+    result = wrap(string, max_width)
+    print(result)
+#fill method    
+import textwrap
+def wrap(string, max_width):
+    string = textwrap.fill(string,max_width)
+    return string
+if __name__ == '__main__':
+    string, max_width = input(), int(input())
+    result = wrap(string, max_width)
+    print(result)
