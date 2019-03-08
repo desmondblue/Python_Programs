@@ -1,0 +1,13 @@
+Write a python program to generate and display the next date of a given date.
+
+Assume that 
+Date is provided as day, month and year as shown in below table.
+The input provided is always valid. Output should be day-month-year.
+Hint: print(day,"-",month,"-",year) will display day-month-year
+
+Sample Input	Expected Output
+Day	1	2-9-2015
+Month	9
+Year	2015
+
+Also identify the test data and use it to test the program.
