@@ -9,20 +9,18 @@ alex.shape("turtle")    # alex looks like a turtle
 alex.color("green")    # alex has a color
 #alex.right(60)         # alex turns 60 degrees right
 #alex.left(60)          # alex turns 60 degrees left
-alex.circle(50)        # draws a circle of radius 50
+        # draws a circle of radius 50
 #draws circles
-for counter in range(1,4):
+for counter in range(1,5):
     alex.circle(20*counter)
 
 alex.right(120)
 alex.color("blue")
-alex.circle(50)
-for counter in range(1,4):
+
+for counter in range(1,5):
     alex.circle(20*counter)
 alex.right(120)
 alex.color("red")
-alex.circle(50)
-for counter in range(1,4):
+
+for counter in range(1,5):
     alex.circle(20*counter)
-#Write the logic to create the given pattern
-#Refer the statements given above to draw the pattern
