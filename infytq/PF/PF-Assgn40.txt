@@ -1,2 +1,0 @@
-Write a recursive function, is_palindrome() to find out whether a string is a palindrome or not. 
-The function should return true, if it is a palindrome. Else it should return false.
