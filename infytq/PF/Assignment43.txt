@@ -1,0 +1,5 @@
+Write a python function find_smallest_number() which accepts a number n and returns the smallest number having n divisors.
+Handle the possible errors in the code written inside the function.
+
+Sample Input	Expected Output
+16	120
